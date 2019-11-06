@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: twitter-feed
-        image: ${DOCKER_REGISTRY}/${DOCKER_REPO}:MASTER-bde1341a8bf20e3c9fb6cf5ab481c05d5d420d34}
+        image: ${DOCKER_REGISTRY}/twitter-feed:MASTER-bde1341a8bf20e3c9fb6cf5ab481c05d5d420d34}
         imagePullPolicy: Always
         ports:
         - name: twitter-feed
