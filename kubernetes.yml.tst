@@ -1,6 +1,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
-metadata:
+metadata: 
   name: twitter-feed-v2
   labels:
     commit: ${WERCKER_GIT_COMMIT}
